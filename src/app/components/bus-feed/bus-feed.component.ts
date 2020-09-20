@@ -30,10 +30,6 @@ export class BusFeedComponent implements OnInit {
     this.publicTransportService.getBusServices()
       .subscribe(busServices => {
         this.organisations = busServices.data;
-
-        //  this.toggleOrganisationSelection(this.organisations[0]);
-        //  this.toggleOrganisationSelection(this.organisations[1]);
-
         this.cdr.markForCheck();
       });
   }
