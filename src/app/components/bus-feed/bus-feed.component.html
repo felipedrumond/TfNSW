@@ -1,0 +1,11 @@
+<div class="title">Bus Reports</div>
+
+<div *ngFor="let organisation of organisations"
+    class="organisation-item">
+    <span class="organisation-title" (click)="toggleOrganisationSelection(organisation)">{{ organisation.organisation }} - {{ organisation.date }}</span>
+    
+    <div class="toggleable" [class.visible]="isSelected(organisation)">
+        <app-bus-status [buses]="organisation?.busData"></app-bus-status>
+        <app-notes></app-notes> 
+    </div>
+</div>

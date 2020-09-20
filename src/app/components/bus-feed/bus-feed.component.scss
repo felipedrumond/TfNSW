@@ -1,0 +1,47 @@
+:host {
+    display: block;
+    height: 100vh;
+    padding: 10px 0 0 0;
+}
+
+.title {
+    font-size: calc(0.75em + 5vmin);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.organisation-item {
+    height: auto !important;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+.organisation-title {
+    padding-left: 3px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: #F0F0F0;
+    transition: 0.3s;
+    font-size: calc(0.75em + 4vmin);
+}
+
+.organisation-title:hover {
+    background-color: #F6F6F6;
+    font-size: calc(0.75em + 4.2vmin);
+}
+
+.toggleable {
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.toggleable.visible {
+    visibility: visible;
+    height: 400px;
+}

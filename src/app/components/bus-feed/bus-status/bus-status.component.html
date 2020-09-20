@@ -1,0 +1,11 @@
+ <!-- Due to time contrains, I am not using a CSS Grid but a simple table instead -->
+<table>
+    <th>Bus ID</th>
+    <th>Route Variant</th>
+    <th>Status</th>
+    <tr *ngFor="let bus of buses">
+        <td>{{ bus.busId }}</td>
+        <td [innerHTML]="bus.routeVariant | routeVariantFormatter"></td>
+        <td [innerHTML]="bus.deviationFromTimetable | busStatusFormatter"></td>
+    </tr>
+</table> 

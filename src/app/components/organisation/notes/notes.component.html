@@ -1,0 +1,7 @@
+
+<form [formGroup]="notesForm" (ngSubmit)="onSubmit()">
+    <div >
+        <input type="text" placeholder="Enter notes here" formControlName="notes" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.notes.errors }" />
+    </div>
+    <button class="btn btn-primary mr-1">Save Notes</button>
+</form>

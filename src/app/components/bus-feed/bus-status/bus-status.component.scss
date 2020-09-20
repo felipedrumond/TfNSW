@@ -1,0 +1,28 @@
+
+
+:host {
+    font-size: calc(0.75em + 2vmin);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    border-spacing: 0 0;
+    line-height: 50px;
+}
+
+th {
+    background-color: #D9EDF7;
+    text-align: left;
+    padding: 0 0 0 10px;
+    border-top: 1px solid #E3E3E3;
+}
+
+tr {
+    border-top: 1px solid #E3E3E3;
+}
+
+td {
+    text-align: left;
+    padding: 0 0 0 10px;
+}
