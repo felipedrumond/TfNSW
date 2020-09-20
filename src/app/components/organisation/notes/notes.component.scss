@@ -1,0 +1,10 @@
+form {
+    padding: 0px 10px 0px 5px
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    form {
+        zoom: 1.4
+    }
+}

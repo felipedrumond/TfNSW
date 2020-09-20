@@ -26,3 +26,10 @@ td {
     text-align: left;
     padding: 0 0 0 10px;
 }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    :host {
+        font-size: calc(0.75em + 1.3vmin);
+    }
+}

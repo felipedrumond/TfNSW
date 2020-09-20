@@ -43,5 +43,20 @@
 
 .toggleable.visible {
     visibility: visible;
-    height: 400px;
+    height: 430px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .title {
+        font-size: calc(0.75em + 3vmin);
+    }
+
+    .organisation-title {
+        font-size: calc(0.75em + 2vmin);
+    }
+
+    .organisation-title:hover {
+        font-size: calc(0.75em + 2.2vmin);
+    }
 }

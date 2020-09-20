@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 @Component({
   selector: 'app-notes',
   templateUrl: './notes.component.html',
-  styleUrls: ['./notes.component.css']
+  styleUrls: ['./notes.component.scss']
 })
 export class NoteComponent implements OnInit {
 
@@ -33,6 +33,7 @@ export class NoteComponent implements OnInit {
         return;
     }
 
+    alert(`Your notes are: '${this.notesForm.value.notes}' - (won't be saved)`)
     this.reset();
   }
 
