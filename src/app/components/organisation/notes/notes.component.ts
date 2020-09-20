@@ -33,7 +33,7 @@ export class NoteComponent implements OnInit {
         return;
     }
 
-    alert(`Your notes are: '${this.notesForm.value.notes}' - (won't be saved)`)
+    alert(`Your notes are: '${this.notesForm.value.notes}' - (won't be saved)`);
     this.reset();
   }
 
