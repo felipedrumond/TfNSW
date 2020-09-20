@@ -31,8 +31,8 @@ My main focus with this assessment was to:
 
 Run the following commands in an a windows prompt command
 
-* **clone https://github.com/felipedrumond/TfNSW-Bus-Report-App.git** - to clone de repository
-* **cd TfNSW-Bus-Report-App** - to enter in the app folder
+* **clone https://github.com/felipedrumond/TfNSW.git** - to clone de repository
+* **cd TfNSW** - to enter in the app folder
 * **npm install** - to  install the packages necessary to build and run the app
 * **ng serve** - to build and serve the app
 
